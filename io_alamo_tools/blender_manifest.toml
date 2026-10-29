@@ -1,0 +1,17 @@
+schema_version = "1.0.0"
+id = "io_alamo_tools"
+version = "1.2.2"
+name = "ALAMO Tools"
+tagline = "Import and export Empire at War models and animations"
+maintainer = "ALAMO Tools compatibility fork"
+type = "add-on"
+tags = ["Import-Export"]
+blender_version_min = "5.2.0"
+license = ["SPDX:MIT"]
+copyright = ["2020 Gaukler"]
+
+[permissions]
+files = "Read and write ALO models, ALA animations, and model textures"
+
+[build]
+paths_exclude_pattern = ["__pycache__/", "*.pyc", ".*", "*.zip"]
